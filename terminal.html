@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahran</title>
+    <style>
+        * {
+            margin: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url('sea.jpeg');
+        }
+
+        header {
+            background-color: rgb(46, 44, 44);
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0px 20px;
+        }
+
+        #box2 {
+            display: flex;
+        }
+
+        #box2 ul {
+            padding-right: 28px;
+            align-self: center;
+        }
+
+        #box3 {
+            display: flex;
+        }
+
+        .buttons {
+            align-self: center;
+            padding: 5px 25px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin: 0px 20px;
+            font-family: cursive;
+            font-weight: bold;
+            background-color: rgb(46, 44, 44);
+            cursor: pointer;
+            outline: none;
+        }
+
+        #box1 {
+            display: flex;
+        }
+
+        #box1 h3 {
+            align-self: center;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            font-family: cursive;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        #box2 li a {
+            color: violet;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        #box2 li a:hover {
+            color: rgb(229, 245, 7);
+        }
+
+        #box1 h3:hover,
+        #box3 button:hover {
+            color: rgb(229, 245, 7);
+            border-color: rgb(229, 245, 7);
+            ;
+        }
+
+        #terminal {
+            background-color: rgba(0, 0, 0, 0.699);
+            border: 5px solid rgb(19, 19, 19);
+            margin: 60px;
+            margin-bottom: 0px;
+            height: 520px;
+        }
+
+        #title {
+            text-align: center;
+            background-color: rgb(19, 19, 19);
+            color: white;
+            border-bottom: 3px solid rgb(19, 19, 19);
+            font-family: cursive;
+            font-weight: normal;
+        }
+
+        .txt {
+            color: chartreuse;
+            display: inline;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        #py {
+            display: inline;
+        }
+
+        .py {
+            color: white;
+            font-family: cursive;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="box1">
+                <h3>Wahran</h3>
+            </div>
+            <div id="box2">
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">Preview</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    <li><a href="#" class="link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="box3">
+                <button class="buttons">Buy Now</button>
+                <button class="buttons">Don't Buy</button>
+            </div>
+        </div>
+    </header>
+    <div id="terminal">
+        <h4 id="title">Terminal - nova@Phantom:~ (It's not a sceenshot terminal ;)</h4>
+        <h4 class="txt">[nova@Phantom ~]$ </h4>
+        <h4 class="py" id="py">python</h4>
+        <h4 class="py">Python 3.8.3 (default, May 17 2020, 18:15:42)<br>
+            [GCC 10.1.0] on linux<br>
+            Type "help", "copyright", "credits" or "license" for more information.<br>
+            >>>
+        </h4>
+    </div>
+</body>
+
+</html>
